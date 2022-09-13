@@ -10,6 +10,7 @@ iron: #cdd3d8;
 --curious-blue: #278cc3;
 --chathams-blue: #144c7b;
 --steel-blue: #447da9;
+--dark-grey #282828
 */
 
 /* CSS RGB 
@@ -27,6 +28,8 @@ iron: #cdd3d8;
 body{
   font-family: 'Montserrat', sans-serif;
   background-color: #cdd3d8;
+  /* color:#fff */
+  padding-top: 0px;
 }
 
 * {
@@ -37,17 +40,19 @@ body{
 
 .main_navigation{
   width: 100%;
-  height: 110px;
+  height: 110px; 
   background-color: #268fcc;
+  position: absolute;
+  top: 0;
 }
 
 .navigation{
-  
   background-color: #268fcc;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 210px;
+  
 }
  
 
@@ -59,7 +64,7 @@ body{
 a {
   
   padding: 10px;
-  /* background-color: red; */
+  
   align-items: center;
 }
 .navigation_links {
@@ -67,11 +72,13 @@ a {
   text-decoration: none;
   color: #fff;
   align-items: center;
+  border-radius: 10px;
 }
 .navigation_links:hover{
   color: #fff;
   background-color:#144c7b ;
   border-radius: 10px;
+  transition: 0.3s ease;
 
 }
 .ig_logo{
@@ -114,7 +121,7 @@ h1{
 
 .buttons_header{
   margin-top: 50px;
-  padding: 0 300px;
+  padding: 0 205px;
   display: flex;
   justify-content: space-between;
   
@@ -140,7 +147,7 @@ h1{
 }
 
 .services a{
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
   width: 300px;
   height: 300px;
   background-color: #268fcc;
