@@ -24,3 +24,31 @@ iron: #cdd3d8;
 --steel-blue: rgba(68,125,169,1);
 */
 
+
+
+.container{
+  /* width: 1400px; */
+  margin: 0 auto;
+}
+.navigation{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #268fcc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 110px;
+  height: 110px;
+}
+
+.car_image {
+  width: 100%;
+  height: 500px;
+}
