@@ -111,9 +111,6 @@ a {
   margin-top: 40px;
 }
 
-.car_background {
-  /* position: relative; */
-}
 .car_background2 {
   position: relative;
 }
@@ -138,8 +135,9 @@ a {
   top: 130px;
   left: 90px;
 
- 
 }
+
+
 h1 {
   margin-bottom: 60px;
 }
@@ -200,7 +198,7 @@ text-shadow: 3px 5px 2px #303030, 40px 40px 20px rgba(206,89,55,0);
 }
 
 .services a {
-  box-shadow: 10px 10px 5px black;
+  box-shadow: 10px 10px 20px rgb(9, 9, 9);
   width: 300px;
   height: 300px;
   border-radius: 10px;
@@ -209,7 +207,21 @@ text-shadow: 3px 5px 2px #303030, 40px 40px 20px rgba(206,89,55,0);
   color: #fff;
   text-align: center;
   cursor: pointer;
+  transition: 0.5s;
 }
+
+.services a:hover{
+  box-shadow: 20px 20px 20px 5px rgb(23, 23, 23);
+   width: 305px;
+   height: 305px;
+   border-radius: 10px;
+   transition: .3s ease;
+   background-color: #303030;
+   color: #fff;
+   text-align: center;
+   cursor: pointer;
+  margin: -2.5px;
+ }
 
 .services a li{
   list-style: none;
@@ -226,7 +238,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  width: 1200px;
+  width: 1450px;
   margin: 0 auto;
 }
 .socmed {
@@ -241,7 +253,11 @@ footer {
 .ticktock{
   width: 35px;
   height: 35px;
-  
+  margin-right: 12px;
+}
+.facebook{
+  width: 35px;
+  height: 35px;
 }
 
 .copyright {
@@ -253,7 +269,7 @@ footer {
   height: 300px;
 }
 section{
-  width: 850px;
+  width: 1250px;
   margin: 0 auto;
 }
 .price_container{
@@ -261,4 +277,14 @@ section{
   /* width: 1000px; */
   
 }
+.follow_icon{
+  width: 25px;
+  height: 30px;
 
+}
+.follow{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+}
