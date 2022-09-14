@@ -41,17 +41,14 @@ sdasd
 
 */
 
-
-
 /********************************************
 ******************ELEMENTS*******************
 *********************************************/
 
-
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #202020;
-  color:#fff;
+  color: #fff;
   padding-top: 0px;
 }
 
@@ -129,14 +126,12 @@ a {
   /* display: inline-block; */
   width: 400px;
   color: #fff;
- position: absolute;
+  position: absolute;
   text-shadow: grey 1px 0 10px;
   font-size: 27px;
   top: 130px;
   left: 90px;
-
 }
-
 
 h1 {
   margin-bottom: 60px;
@@ -155,7 +150,6 @@ h1 {
 
 .buttons_container {
   width: 100%;
-  
 }
 
 .buttons_header {
@@ -166,7 +160,6 @@ h1 {
   align-items: center; */
   text-align: center;
   padding-top: 30px;
- 
 }
 
 .buttons_header p {
@@ -182,13 +175,12 @@ h1 {
 .services {
   padding: 0 200px;
 }
-.sp{
+.sp {
   font-size: 40px;
-letter-spacing: 6px;
-text-shadow: 3px 5px 2px #303030, 40px 40px 20px rgba(206,89,55,0);
-
+  letter-spacing: 6px;
+  text-shadow: 3px 5px 2px #303030, 40px 40px 20px rgba(206, 89, 55, 0);
 }
-.sp_paragraph{
+.sp_paragraph {
   line-height: 1.5;
 }
 
@@ -210,20 +202,20 @@ text-shadow: 3px 5px 2px #303030, 40px 40px 20px rgba(206,89,55,0);
   transition: 0.5s;
 }
 
-.services a:hover{
+.services a:hover {
   box-shadow: 20px 20px 20px 5px rgb(23, 23, 23);
-   width: 305px;
-   height: 305px;
-   border-radius: 10px;
-   transition: .3s ease;
-   background-color: #303030;
-   color: #fff;
-   text-align: center;
-   cursor: pointer;
+  width: 305px;
+  height: 305px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  background-color: #303030;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
   margin: -2.5px;
- }
+}
 
-.services a li{
+.services a li {
   list-style: none;
   margin-bottom: 20px;
   text-align: left;
@@ -250,12 +242,12 @@ footer {
   height: 35px;
   margin-right: 12px;
 }
-.ticktock{
+.ticktock {
   width: 35px;
   height: 35px;
   margin-right: 12px;
 }
-.facebook{
+.facebook {
   width: 35px;
   height: 35px;
 }
@@ -264,26 +256,32 @@ footer {
   text-align: center;
   background-color: #161617;
 }
-.waxing{
+.waxing {
   width: 300px;
   height: 300px;
 }
-section{
+section {
   width: 1250px;
   margin: 0 auto;
 }
-.price_container{
-  display: flex;
+
+.price_container {
+  /* display: flex; */
   /* width: 1000px; */
-  
+  /* margin-bottom: 100px; */
 }
-.follow_icon{
+/* .item_wrap {
+  display: flex;
+  column-gap: 250px;
+  margin-bottom: 50px;
+  justify-content: center;
+} */
+
+.follow_icon {
   width: 25px;
   height: 25px;
-  
-
 }
-.follow{
+.follow {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
