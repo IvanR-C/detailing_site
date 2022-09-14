@@ -67,6 +67,8 @@ body {
   background-color: #268fcc;
   /* position: absolute; */
   top: 0;
+  position: sticky;
+  z-index: 900;
 }
 
 .navigation {
@@ -110,7 +112,7 @@ a {
 }
 
 .car_background {
-  position: relative;
+  /* position: relative; */
 }
 .car_background2 {
   position: relative;
@@ -133,7 +135,7 @@ a {
  position: absolute;
   text-shadow: grey 1px 0 10px;
   font-size: 27px;
-  top: 110px;
+  top: 130px;
   left: 90px;
 
  
@@ -185,7 +187,7 @@ h1 {
 .sp{
   font-size: 40px;
 letter-spacing: 6px;
-text-shadow: 3px 5px 2px #144c7b, 40px 40px 20px rgba(206,89,55,0);
+text-shadow: 3px 5px 2px #303030, 40px 40px 20px rgba(206,89,55,0);
 
 }
 .sp_paragraph{
@@ -207,6 +209,12 @@ text-shadow: 3px 5px 2px #144c7b, 40px 40px 20px rgba(206,89,55,0);
   color: #fff;
   text-align: center;
   cursor: pointer;
+}
+
+.services a li{
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 /* Footer */
