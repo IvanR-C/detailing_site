@@ -112,6 +112,9 @@ a {
 .car_background {
   position: relative;
 }
+.car_background2 {
+  position: relative;
+}
 .car_text {
   display: inline-block;
   width: 400px;
@@ -122,6 +125,19 @@ a {
   text-shadow: grey 1px 0 10px;
   font-size: 27px;
 }
+
+.car_text2 {
+  /* display: inline-block; */
+  width: 400px;
+  color: #fff;
+ position: absolute;
+  text-shadow: grey 1px 0 10px;
+  font-size: 27px;
+  top: 110px;
+  left: 90px;
+
+ 
+}
 h1 {
   margin-bottom: 60px;
 }
@@ -131,15 +147,26 @@ h1 {
   filter: brightness(50%);
 }
 
+.car_image2 {
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
+}
+
 .buttons_container {
   width: 100%;
+  
 }
 
 .buttons_header {
-  margin-top: 50px;
+  /* margin-top: 50px;
   padding: 0 205px;
   display: flex;
   justify-content: space-between;
+  align-items: center; */
+  text-align: center;
+  padding-top: 30px;
+ 
 }
 
 .buttons_header p {
@@ -155,6 +182,15 @@ h1 {
 .services {
   padding: 0 200px;
 }
+.sp{
+  font-size: 40px;
+letter-spacing: 6px;
+text-shadow: 3px 5px 2px #144c7b, 40px 40px 20px rgba(206,89,55,0);
+
+}
+.sp_paragraph{
+  line-height: 1.5;
+}
 
 .services {
   display: flex;
@@ -165,8 +201,9 @@ h1 {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
   width: 300px;
   height: 300px;
-  border-radius: 5px;
-  background: linear-gradient(180deg, hsla(0, 0%, 31%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+  border-radius: 10px;
+  /* background: linear-gradient(180deg, hsla(0, 0%, 31%, 1) 0%, hsla(0, 0%, 0%, 1) 100%); */
+  background-color: #303030;
   color: #fff;
   text-align: center;
   cursor: pointer;
