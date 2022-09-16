@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,8 +39,8 @@
         <div class="links">
           <a class="navigation_links" href="#">Home</a>
           <a class="navigation_links" href="#">About</a>
-          <a class="navigation_links" href="#">Shop</a>
-          <a class="navigation_links" href="#">Contact</a>
+          <a class="navigation_links" href="#">Services</a>
+          <a class="navigation_links" href="#">Contact Us</a>
         </div>
       </div>
     </nav>
@@ -53,7 +54,7 @@
         <p>Where professionalism and attention to detail is our top priority</p>
       </div>
     </div>
-    <div class="buttons_container">
+    <div id="buttons_container">
       <div class="buttons_header">
         <h2 class="sp">SERVICE PACKAGES</h2>
         <!-- <p class="sp_paragraph">
@@ -120,44 +121,76 @@
         </p>
       </div>
     </div>
-    <!-- <section>
-      <div class="price_container">
-        <div class="item_wrap">
-        <div class="item">
-          <img class="waxing" src="img/wax.png" alt="persong waxing a car" />
+
+    <!-- <div class="slide-container">
+      <span class="slider-span" id="slider-span1"></span>
+      <span class="slider-span" id="slider-span2"></span>
+      <span class="slider-span" id="slider-span3"></span>
+      <span class="slider-span" id="slider-span4"></span>
+
+      <div class="image-slider">
+        <div class="slides-div" id="slide-1">
+          <img src="img/spray wax.jpeg" alt="" class="img" id="img1" />
+          <a href="#slider-span1" class="button" id="button-1"></a>
         </div>
-        <div class="price">
-          <h2>Waxing</h2>
-          <p>price</p>
-          <button>detail</button>
-          </div>
+        <div class="slides-div" id="slide-2">
+          <img src="img/inside.jpg" alt="" class="img" id="img2" />
+          <a href="#slider-span2" class="button" id="button-2"></a>
         </div>
-      
-     <div class="price_container">
-        <div class="item_wrap">
-          <div class="price">
-          <h2>Waxing</h2>
-          <p>price</p>
-          <button>detail</button>
-          </div>
-        <div class="item">
-          <img class="waxing" src="img/wax.png" alt="persong waxing a car" />
+        <div class="slides-div" id="slide-3">
+          <img src="img/outside.jpg" alt="" class="img" id="img3" />
+          <a href="#slider-span3" class="button" id="button-3"></a>
         </div>
-      </div>
-      
-      <div class="price_container">
-        <div class="item_wrap">
-        <div class="item">
-          <img class="waxing" src="img/wax.png" alt="persong waxing a car" />
-        </div>
-        <div class="price">
-          <h2>Waxing</h2>
-          <p>price</p>
-          <button>detail</button>
-        </div>
+        <div class="slides-div" id="slide-4">
+          <img src="img/wax.png" alt="" class="img" id="img4" />
+          <a href="#slider-span4" class="button" id="button-4"></a>
         </div>
       </div>
-    </section> -->
+    </div> -->
+
+    <br>
+    <br>
+    <br>
+    <div class="car_background3">
+      <img class="car_image" src="img/dry.jpeg" />
+    <section>
+      <div class="contacto">
+        <div class="appointment">APPOINMENT / CONTACT</div>
+        <div class="contact_info">
+          <div class="Contacts">
+            <form>
+              <label for="fullname"> Full Name</label>
+              <input type="text" class="caja" placeholder="" />
+            </form>
+          </div>
+          <div class="Contacts">
+            <form>
+              <label for="email">Email</label>
+              <input type="email" class="caja" placeholder="" />
+            </form>
+          </div>
+          <div class="Contacts">
+            <form>
+              <label for="Name"> Details</label>
+              <br>
+              <textarea name="Details" class=" Details" cols="27" rows="2"></textarea>
+            </form>
+          </div>
+          <div class="Contacts">
+            <form>
+              <label for="Name">Phone</label>
+              <input type="phone" class="caja" placeholder="" />
+            </form>
+          </div>
+          <div class="Catchap">
+            <div class="Catchap_text1" cat1>Protected by reCAPTCHA</div>
+            <div class="Catchap_text2" > Privacy - terms</div>
+          </div>
+          <button class="btn">SEND</button>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer>
       <div class="last_part">
@@ -180,12 +213,29 @@
             </svg>
             FOLLOW US
           </div>
-          <a class="socmed" href="">
-            <img class="Instagram" src="img/ig.png" alt="Instagram" />
-            <img class="ticktock" src="img/ticktock.png" alt="TickTock" />
-
-            <img class="facebook" src="img/face.png" alt="FaceBook" />
-          </a>
+          <div class="redes">
+            <a
+              class="socmed"
+              href="https://www.instagram.com/irc_detailing/?hl=en"
+              target="_blank"
+            >
+              <img class="Instagram" src="img/ig.png" alt="Instagram" />
+            </a>
+            <a
+              class="socmed"
+              href="https://www.tiktok.com/@irc_detailing"
+              target="_blank"
+            >
+              <img class="ticktock" src="img/ticktock.png" alt="TickTock" />
+            </a>
+            <a
+              class="socmed"
+              href="https://www.facebook.com/profile.php?id=100085623787047"
+              target="_blank"
+            >
+              <img class="facebook" src="img/face.png" alt="FaceBook" />
+            </a>
+          </div>
         </div>
       </div>
       <div class="copyright">Copyright &copy; 2022</div>
