@@ -68,9 +68,8 @@ html{
   width: 100%;
   height: 110px;
   background-color: #268fcc;
-
   top: 0;
-  /* position: sticky; */
+  position: sticky;
   z-index: 900;
 }
 
@@ -87,6 +86,7 @@ html{
   height: 110px;
   /* margin-top: 10px; */
 }
+
 a {
   padding: 10px;
 
@@ -172,6 +172,7 @@ h1 {
 
 .buttons_header p {
   width: 500px;
+  height: 50px;
 }
 
 .services_container {
@@ -180,10 +181,11 @@ h1 {
   margin-bottom: 50px;
 }
 
-.services {
+.service_packages {
   padding: 0 200px;
 }
 .sp {
+  margin-top: 20px;
   font-size: 40px;
   letter-spacing: 6px;
   text-shadow: 3px 5px 2px #303030, 40px 40px 20px rgba(206, 89, 55, 0);
@@ -192,12 +194,12 @@ h1 {
   line-height: 1.5;
 }
 
-.services {
+.service_packages {
   display: flex;
   justify-content: space-between;
 }
 
-.services a {
+.service_packages a {
   box-shadow: 10px 10px 20px rgb(9, 9, 9);
   width: 300px;
   height: 300px;
@@ -210,7 +212,7 @@ h1 {
   transition: 0.5s;
 }
 
-.services a:hover {
+.service_packages a:hover {
   box-shadow: 20px 20px 20px 5px rgb(23, 23, 23);
   width: 305px;
   height: 305px;
@@ -223,10 +225,36 @@ h1 {
   margin: -2.5px;
 }
 
-.services a li {
+.service_packages a li {
   list-style: none;
   margin-bottom: 20px;
   text-align: left;
+}
+
+.sp_text{
+  display: flex;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.services{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+  margin-bottom: 10px;
+}
+
+.contact_us{
+  color: white;
+}
+
+.service_img{
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+
 }
 
 /* Footer */
@@ -292,37 +320,43 @@ section {
 }
 
 /* Contact Us */
+.car_background3{
+  position: relative;
+}
 .contacto{
   color: black;
   box-shadow: 10px 10px 20px rgb(9, 9, 9);
   width: 700px;
   height: 500px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.521);
   /* padding: 150px 200px; */
-  margin: 30px 0;
+  /* margin: 30px 0; */
   border-radius: 10px;
-  margin-left: 500px;
-margin-bottom: top 100px;
-position: relative;
+  /* margin-left: 500px; */
+/* margin-bottom: top 100px; */
+position: absolute;
+top: 150px;
+right: 100px;
 }
 
-.appointment{
+#appointment{
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   color: #33393e ;
-  padding-top: 20px;
-  
+ margin-top: 60px;
+ 
 }
+
 .contact_info{
   display: grid;
   grid-template-columns: 250px 250px;
   justify-content: center;
   row-gap: 40px;
-  margin-top: 100px;
+  margin-top: 60px;
   font-size: 18px;
   font-weight: bold;
-  color: #555;
+  color: rgb(65, 65, 65);
 }
 .Catchap{
   width: 200px;
@@ -352,8 +386,8 @@ letter-spacing: 1;
 .btn:hover{
   cursor: pointer;
   color: #fff;
-  background-color: #303030;
-  transition: .2s;
+  background-color: #268fcc;
+  transition: .3s;
   
 }
 
