@@ -39,7 +39,7 @@
         <div class="links">
           <a class="navigation_links" href="#">Home</a>
           <a class="navigation_links" href="#">About</a>
-          <a class="navigation_links" href="#">Services</a>
+          <a class="navigation_links" href="#servicios">Services</a>
           <a class="navigation_links" href="#appointment">Contact Us</a>
         </div>
       </div>
@@ -115,10 +115,13 @@
         <h1>
           We go to YOU
         </h1>
+        
         <p>
           We are a mobile business so that you have your car at its shiniest without leaving your house
         </p>
+        <div id="servicios"></div>
       </div>
+      
     </div>
 
     <div id="buttons_container">
@@ -126,7 +129,9 @@
         <h2 class="sp">SERVICES</h2>
       </div>
     </div>
+    
     <div class="s_container">
+      <div id="servicios"></div>
       <div class="services">
         <a class="serv1">
           <img class="service_img" src="img/outside.jpg">
@@ -154,26 +159,26 @@
         <div id="appointment">APPOINMENT / CONTACT</div>
         <div class="contact_info">
           <div class="Contacts">
-            <form>
+            <form action="/formulario" method="post" >
               <label for="fullname"> Full Name</label>
               <input type="text" class="caja" placeholder="" />
-            </form>
+            
           </div>
           <div class="Contacts">
-            <form>
+           
               <label for="email">Email</label>
               <input type="email" class="caja" placeholder="" />
-            </form>
+            
           </div>
           <div class="Contacts">
-            <form>
+            
               <label for="Name"> Details</label>
               <br>
               <textarea name="Details" class=" Details" cols="27" rows="2"></textarea>
-            </form>
+           
           </div>
           <div class="Contacts">
-            <form>
+            
               <label for="Name">Phone</label>
               <input type="phone" class="caja" placeholder="" />
             </form>
