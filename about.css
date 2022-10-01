@@ -1,3 +1,43 @@
+/*CSS HEX 
+iron: #cdd3d8;
+--matisse: #1c6ca4;
+--tundora: #444444;
+--curious-blue: #268fcc;
+--rolling-stone: #71777d;
+--downy: #7bb3d6;
+--curious-blue: #278cc3;
+--chathams-blue: #144c7b;
+--steel-blue: #447da9;
+--dark-grey #282828
+*/
+
+/* CSS RGB 
+sdasd
+--iron: rgba(205,211,216,1);
+--matisse: rgba(28,108,164,1);
+--tundora: rgba(68,68,68,1);
+--curious-blue: rgba(38,143,204,1);
+--rolling-stone: rgba(113,119,125,1);
+--downy: rgba(123,179,214,1);
+--curious-blue: rgba(39,140,195,1);
+--chathams-blue: rgba(20,76,123,1);
+--steel-blue: rgba(68,125,169,1);
+
+
+--big-stone: #143138;
+--rock-blue: #a1b8d3;
+--danube: #6aaacd;
+--steel-blue: #4d8eb4;
+--smalt-blue: #587d90;
+--ming: #38657b;
+--casal: #315865;
+--shuttle-gray: #5a6165;
+--au-chico: #945c5c;
+
+
+*/
+
+
 *{
   margin: 0;
   padding: 0;
@@ -6,22 +46,35 @@
 .instagram, .tiktok, .facebook{
   text-decoration: none;
   font-size: 52px;
-
-
+  border: solid #144c7b 3px;
+  border-radius: 10px;
+  color: #278cc3;
+  background: -webkit-linear-gradient(45deg, hsla(207, 72%, 28%, 1) 0%, hsla(202, 69%, 47%, 1) 4%, hsla(207, 72%, 28%, 1) 31%, hsla(202, 69%, 47%, 1) 54%, hsla(207, 72%, 28%, 1) 79%, hsla(202, 69%, 47%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 1s ease;
+  
 }
+.instagram:hover, .tiktok:hover, .facebook:hover{
+
+  /* background: -webkit-linear-gradient(45deg, hsla(202, 69%, 47%, 1) 0%, hsla(207, 72%, 28%, 1) 4%, hsla(202, 69%, 47%, 1) 31%, hsla(207, 72%, 28%, 1) 54%, hsla(202, 69%, 47%, 1) 79%, hsla(207, 72%, 28%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  
+  border-radius: ;
+  
+}
+
 .social-media-container{
   display: flex;
   flex-direction: column;
   gap: 10px;
   text-align: center;
-  width:300px ;
+  width:320px ;
   margin: 0 auto;
   
+  
 }
-/* .tiktok, .facebook{
-  display: inline-block;
-  width: 233px;
-} */
 
 .background_image{
   background-image: url(./img/662960.webp);
@@ -42,13 +95,4 @@
   padding-top: 150px;
   padding-bottom: 50px;
   margin: 0 auto;
-}
-
-.button_image{
-  width: 300px;
-  height: 90px;
-  background-color: white;
-  border-radius: 10px;
-  display: inline;
-  box-shadow: 0 5px 10px 0 rgb(89, 89, 89);
 }
