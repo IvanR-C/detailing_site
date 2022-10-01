@@ -84,8 +84,6 @@ html {
   width: 110px;
   height: 110px;
   /* margin-top: 10px; */
-  transform: rotate(360deg);
-  transition: 0.5s;
 }
 
 a {
@@ -179,7 +177,7 @@ h1 {
 .services_container {
   margin-top: 50px;
   width: 100%;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .service_packages {
@@ -265,7 +263,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 10px 0;
   width: 1450px;
   margin: 0 auto;
 }
@@ -292,8 +290,7 @@ footer {
 }
 
 .copyright {
-  text-align: center;
-  background-color: #161617;
+  align-self: flex-end;
 }
 .waxing {
   width: 300px;
