@@ -75,7 +75,7 @@ sdasd
   text-align: center;
   width:320px ;
   margin: 0 auto;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   
   
 }
@@ -111,5 +111,5 @@ sdasd
 }
 .goback{
   font-size: 22px;
-  margin-top: 20px;
+  
 }
