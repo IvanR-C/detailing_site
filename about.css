@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.instagram, .tiktok, .facebook{
+  text-decoration: none;
+  font-size: 52px;
+
+
+}
+.social-media-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  width:300px ;
+  margin: 0 auto;
+  
+}
+/* .tiktok, .facebook{
+  display: inline-block;
+  width: 233px;
+} */
+
+.background_image{
+  background-image: url(./img/662960.webp);
+  background-size: cover;
+  background-repeat:repeat;
+  height: 100vh;
+  width: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  display: flex;
+}
+
+.mid_logo{
+  width: 500px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.button_image{
+  width: 300px;
+  height: 90px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline;
+  box-shadow: 0 5px 10px 0 rgb(89, 89, 89);
+}
