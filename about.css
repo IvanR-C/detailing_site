@@ -111,5 +111,12 @@ sdasd
 }
 .goback{
   font-size: 22px;
+  text-decoration: none;
+  height: 50px;
+}
+.goback:hover{
+  font-size: 22px;
+  transition: .3s;
+  text-decoration: underline;
   
 }
