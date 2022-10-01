@@ -42,8 +42,10 @@ sdasd
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 .instagram, .tiktok, .facebook{
+  font-weight: 600;
   text-decoration: none;
   font-size: 52px;
   border: solid #144c7b 3px;
@@ -52,7 +54,7 @@ sdasd
   background: -webkit-linear-gradient(45deg, hsla(207, 72%, 28%, 1) 0%, hsla(202, 69%, 47%, 1) 4%, hsla(207, 72%, 28%, 1) 31%, hsla(202, 69%, 47%, 1) 54%, hsla(207, 72%, 28%, 1) 79%, hsla(202, 69%, 47%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: 1s ease;
+  transition: 0.5s ease;
   
 }
 .instagram:hover, .tiktok:hover, .facebook:hover{
@@ -61,8 +63,9 @@ sdasd
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
   
-  border-radius: ;
-  
+
+  transition: 0.5s;
+  transform: scale(110%);
 }
 
 .social-media-container{
@@ -88,6 +91,11 @@ sdasd
 
 .logo{
   display: flex;
+  
+}
+.logo:hover{
+  transform: translatex(4)
+  
 }
 
 .mid_logo{
