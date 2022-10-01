@@ -75,7 +75,7 @@ sdasd
   text-align: center;
   width:320px ;
   margin: 0 auto;
-  padding-bottom: 50px;
+  
   
   
 }
@@ -109,10 +109,17 @@ sdasd
   padding-bottom: 50px;
   margin: 0 auto;
 }
+.goback-container{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .goback{
   font-size: 22px;
   text-decoration: none;
-  height: 50px;
+  color: rgb(49, 29, 139);
+  
 }
 .goback:hover{
   font-size: 22px;
